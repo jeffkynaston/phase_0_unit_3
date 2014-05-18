@@ -1,32 +1,32 @@
 # U3.W7: Modeling a Real-World Database (SOLO CHALLENGE)
 
 ## Release 0: Users Fields
-
-users
-
-id
-name
-avatar
-created_at
-updated_at
-
-
-
-tweets??
-followers??
-followed_users???
-=> I think these would all be separate tables
+<br/>
+users<br/>
+<br/>
+id<br/>
+name<br/>
+avatar<br/>
+created_at<br/>
+updated_at<br/>
+<br/>
+<br/>
+<br/>
+tweets??<br/>
+followers??<br/>
+followed_users???<br/>
+=> I think these would all be separate tables<br/>
 
 
 ## Release 1: Tweet Fields
-
-tweets
-
-id - auto incriment
-user_id - required
-body - required
-photo - optional
-location - optional
+<br/>
+tweets<br/>
+<br/>
+id - auto incriment<br/>
+user_id - required<br/>
+body - required<br/>
+photo - optional<br/>
+location - optional<br/>
 
 
 ## Release 2: Explain the relationship
