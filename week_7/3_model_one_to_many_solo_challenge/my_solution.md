@@ -57,4 +57,6 @@ Each user can have more than one tweet, but each tweet belongs to only one user.
 
 
 ## Release 5: Reflection
-<!-- Be sure to add your reflection here!!! -->
+I think I still have a lot to learn about databases. The naming conventions and standard formatting are starting to get engrained, but connecting tables can get complex quickly. One thing I wasn't quite sure about - how to specificy a certain date. My best guess was to just use a > sign and a date in short notation, but I'm not sure if that's correct. 
+
+Thinking through the one-to-one, one-to-many, and many-to-many relationshpis isn't too difficult for me. I should spend some more time thinking about the relationships between data and between tables - a table should have a field or when that field should actually be a table of its own. 
