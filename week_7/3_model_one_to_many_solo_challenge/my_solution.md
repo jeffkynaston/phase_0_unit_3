@@ -37,18 +37,22 @@ Each user can have more than one tweet, but each tweet belongs to only one user.
 <img src="../imgs/users-tweets.png">
 
 ## Release 4: SQL Statements
-`SELECT user_id, body<br/> 
-	FROM users JOIN tweets ON (users.id=user_id)<br/>
-  	WHERE user_id = 'jeffkynaston'`<br/>
+`SELECT user_id, body`<br/> 
+`	FROM users JOIN tweets ON (users.id=user_id)`<br/>
+`  	WHERE user_id = 'jeffkynaston'`<br/>
 
-`SELECT user_id, body<br/>
-	FROM users JOIN tweets ON (users.id=user_id)<br/>
-  	WHERE user_id = 'jeffkynaston'<br/>
-   	AND created_at > 5/14/14``<br/>
+`SELECT user_id, body`<br/>
+`	FROM users JOIN tweets ON (users.id=user_id)`<br/>
+`  	WHERE user_id = 'jeffkynaston'`<br/>
+`   	AND created_at > 5/14/14``<br/>
 
-`SELECT name<br/>
-	FROM users JOIN tweets ON (users.id=user_id)<br/>
-		WHERE tweet.id = '14402084'`<br/>
+`SELECT user_id, body`<br/>
+` FROM users JOIN tweets ON (users.id=user_id)`<br/>
+`   WHERE body LIKE '%@jeffkynaston%'`<br/>
+
+`SELECT name`<br/>
+`	FROM users JOIN tweets ON (users.id=user_id)`<br/>
+`		WHERE tweet.id = '14402084'`<br/>
 
 
 
