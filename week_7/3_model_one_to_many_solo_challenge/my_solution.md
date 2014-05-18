@@ -30,25 +30,25 @@ location - optional<br/>
 
 
 ## Release 2: Explain the relationship
-The relationship between `users` and `tweets` is: one-to-many
+The relationship between `users` and `tweets` is: one-to-many<br/>
 Each user can have more than one tweet, but each tweet belongs to only one user. 
 
 ## Release 3: Schema Design
 <img src="../imgs/users-tweets.png">
 
 ## Release 4: SQL Statements
-`SELECT user_id, body 
-	FROM users JOIN tweets ON (users.id=user_id)
-  	WHERE user_id = 'jeffkynaston'`
+`SELECT user_id, body<br/> 
+	FROM users JOIN tweets ON (users.id=user_id)<br/>
+  	WHERE user_id = 'jeffkynaston'`<br/>
 
-`SELECT user_id, body 
-	FROM users JOIN tweets ON (users.id=user_id)
-  	WHERE user_id = 'jeffkynaston'
-   	AND created_at > 5/14/14`
+`SELECT user_id, body<br/>
+	FROM users JOIN tweets ON (users.id=user_id)<br/>
+  	WHERE user_id = 'jeffkynaston'<br/>
+   	AND created_at > 5/14/14``<br/>
 
-`SELECT name
-	FROM users JOIN tweets ON (users.id=user_id)
-		WHERE tweet.id = '14402084'`
+`SELECT name<br/>
+	FROM users JOIN tweets ON (users.id=user_id)<br/>
+		WHERE tweet.id = '14402084'`<br/>
 
 
 
