@@ -12,10 +12,20 @@
 class Student
   attr_accessor :scores, :first_name
 
-  def initialize(args)   #Use named arguments!
-    #your code here
+  def initialize(first_name, scores)
+    @first_name = first_name
+    @scores = scores
   end
 end
+
+alex = Student.new("Alex", [100,100,100,0,100])
+jeff = Student.new("Jeff", [100,100,100,100,100])
+benson = Student.new("Benson", [100,90,99,98,99])
+jared = Student.new("Jared", [66,68,64,60,72])
+karen = Student.new("Karen", [80,85,88,82,92])
+
+students = [alex, jeff, benson, jared, karen]
+
 
 
 # 4. Refactored Solution
